@@ -17,6 +17,9 @@ import './App.css';
 /* Saving the score */
 
 
+/* Showing the score */
+
+
 export default function App() {
 	const questions = [
 		{
