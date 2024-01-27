@@ -11,6 +11,8 @@ import './App.css';
 /* Changing questions using state */ 
 
 
+/* Showing the score screen */ 
+
 
 export default function App() {
 	const questions = [
