@@ -7,7 +7,7 @@ import './App.css';
 
 /* Rendering Questions and Answers */ 
        // add jsx questions[0].questionText to questiontext div to show each question  //
-
+			// add map method for answers to show up properly //
 
 
 
