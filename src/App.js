@@ -6,7 +6,7 @@ import './App.css';
 /* PSUEDO CODE */
 
 /* Rendering Questions and Answers */ 
-       /* add jsx questions[0].questionText to questiontext div to show each question  */
+       // add jsx questions[0].questionText to questiontext div to show each question  //
 
 
 
