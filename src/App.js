@@ -26,6 +26,8 @@ import './App.css';
 
 
 export default function App() {
+	const [currentQuestion, setQuestion] = useState()
+	
 	const questions = [
 		{
 			questionText: 'What is the capital of France?',
