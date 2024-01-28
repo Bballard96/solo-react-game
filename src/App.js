@@ -71,6 +71,10 @@ export default function App() {
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [currentAnswer, setCurrentAnswer] = useState(0)
 
+	const handleAnswerButtonClick = (answerOption) => {
+		
+	}
+
 	return (
 		<div className='app'>
 			{/* HINT: replace "false" with logic to display the 
