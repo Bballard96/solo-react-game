@@ -88,7 +88,7 @@ export default function App() {
 					<div className='answer-section'>
             {questions[currentAnswer].answerOptions.map((answerOption, index) => (
 
-              <button>{answerOption.answerText}</button>
+              <button onClick={() => setCurrentAnswer(currentAnswer + 1)}>{answerOption.answerText}</button>
 
             ) )}
 						{/* <button>Answer 2</button>
