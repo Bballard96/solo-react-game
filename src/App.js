@@ -67,7 +67,7 @@ export default function App() {
 		},
 	];
 
-	const [currentQuestion, setQuestion] = useState(0);
+	const [currentQuestion, setCurrentQuestion] = useState(0);
 
 	return (
 		<div className='app'>
@@ -81,7 +81,7 @@ export default function App() {
 						<div className='question-count'>
 							<span>Question 1</span>/{questions.length}
 						</div>
-						<div className='question-text'>{questions[0].questionText}</div>
+						<div className='question-text'>{questions[currentQuestion].questionText}</div>
 					</div>
 					<div className='answer-section'>
             {questions[0].answerOptions.map((answerOption, index) => (
