@@ -26,7 +26,7 @@ import './App.css';
 
 
 export default function App() {
-	const [currentQuestion, setQuestion] = useState(0)
+	
 	
 	const questions = [
 		{
@@ -66,6 +66,8 @@ export default function App() {
 			],
 		},
 	];
+
+	const [currentQuestion, setQuestion] = useState(0);
 
 	return (
 		<div className='app'>
