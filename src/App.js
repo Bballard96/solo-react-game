@@ -26,7 +26,7 @@ import './App.css';
 
 
 export default function App() {
-	const [currentQuestion, setQuestion] = useState()
+	const [currentQuestion, setQuestion] = useState(0)
 	
 	const questions = [
 		{
