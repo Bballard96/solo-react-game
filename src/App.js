@@ -69,6 +69,7 @@ export default function App() {
 	];
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
+	const [currentAnswer, setCurrentAnswer] = useState(0)
 
 	return (
 		<div className='app'>
@@ -85,7 +86,7 @@ export default function App() {
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
 					</div>
 					<div className='answer-section'>
-            {questions[0].answerOptions.map((answerOption, index) => (
+            {questions[currentAnswer].answerOptions.map((answerOption, index) => (
 
               <button>{answerOption.answerText}</button>
 
