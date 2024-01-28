@@ -14,6 +14,7 @@ import './App.css';
 
 /* Changing questions using state */ 
 
+// add state varible for question and current question //
 
 
 /* Showing the score screen */ 
