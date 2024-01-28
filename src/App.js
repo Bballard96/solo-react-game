@@ -1,6 +1,7 @@
 import logo from './logo.svg';
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+
 
 
 /* PSUEDO CODE */
@@ -12,6 +13,7 @@ import './App.css';
 
 
 /* Changing questions using state */ 
+
 
 
 /* Showing the score screen */ 
