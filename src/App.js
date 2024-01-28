@@ -6,7 +6,7 @@ import './App.css';
 /* PSUEDO CODE */
 
 /* Rendering Questions and Answers */ 
-
+       /* add jsx questions[0].questionText to questiontext div to show each question  */
 
 
 
@@ -83,9 +83,9 @@ export default function App() {
               <button>{answerOption.answerText}</button>
 
             ) )}
-						<button>Answer 2</button>
+						{/* <button>Answer 2</button>
 						<button>Answer 3</button>
-						<button>Answer 4</button>
+						<button>Answer 4</button> */}
 					</div>
 				</>
 			)}
