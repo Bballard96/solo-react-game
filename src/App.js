@@ -72,9 +72,9 @@ export default function App() {
 	const [currentAnswer, setCurrentAnswer] = useState(0)
 
 	const handleAnswerButtonClick = (answerOption) => {
-		if (currentQuestion < questions.length ) {
-
 		const nextQuestion = currentQuestion + 1;
+		if (nextQuestion < questions.length ) {
+
 		setCurrentQuestion(nextQuestion)
 		// setCurrentAnswer(currentAnswer + 1)
 		// setCurrentQuestion(currentQuestion + 1)
