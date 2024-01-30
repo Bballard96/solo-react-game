@@ -80,7 +80,7 @@ export default function App() {
 		setCurrentQuestion(nextQuestion)
 		// if the next question is higher than the total ammount of questions (last question of the quiz), alert player that the game is over
 		} else {
-			alert('GAME OVER')
+			alert("You've reached the end of the quiz")
 		}
 	}
 
