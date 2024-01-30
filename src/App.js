@@ -76,10 +76,9 @@ export default function App() {
 		const nextQuestion = currentQuestion + 1;
 		// make if statement to check if the next question is less than the total ammount of questions
 		if (nextQuestion < questions.length ) {
-
+		// if the next question is less than total # of questions, setcurrent question state to currentquestion + 1 (nextQuestion) 
 		setCurrentQuestion(nextQuestion)
-		// setCurrentAnswer(currentAnswer + 1)
-		// setCurrentQuestion(currentQuestion + 1)
+		// if the next question is higher than the total ammount of questions, alert player that the gam eis over and do not proceed
 		} else {
 			alert('GAME OVER')
 		}
