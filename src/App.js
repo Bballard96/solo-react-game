@@ -72,8 +72,15 @@ export default function App() {
 	const [currentAnswer, setCurrentAnswer] = useState(0)
 
 	const handleAnswerButtonClick = (answerOption) => {
-		setCurrentAnswer(currentAnswer + 1)
-		setCurrentQuestion(currentQuestion + 1)
+		if (currentQuestion < questions.length ) {
+
+		const nextQuestion = currentQuestion + 1;
+		setCurrentQuestion(nextQuestion)
+		// setCurrentAnswer(currentAnswer + 1)
+		// setCurrentQuestion(currentQuestion + 1)
+		} else {
+			alert('GAME OVER')
+		}
 	}
 
 	return (
@@ -86,7 +93,7 @@ export default function App() {
 				<>
 					<div className='question-section'>
 						<div className='question-count'>
-							<span>Question 1</span>/{questions.length}
+							<span>Question 1{}</span>/{questions.length}
 						</div>
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
 					</div>
