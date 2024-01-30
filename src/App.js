@@ -78,7 +78,7 @@ export default function App() {
 		if (nextQuestion < questions.length ) {
 		// if the next question is less than total # of questions, setcurrent question state to currentquestion + 1 (nextQuestion) 
 		setCurrentQuestion(nextQuestion)
-		// if the next question is higher than the total ammount of questions, alert player that the gam eis over and do not proceed
+		// if the next question is higher than the total ammount of questions (last question of the quiz), alert player that the game is over
 		} else {
 			alert('GAME OVER')
 		}
