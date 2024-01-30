@@ -72,7 +72,7 @@ export default function App() {
 	const [currentAnswer, setCurrentAnswer] = useState(0)
 
 	const handleAnswerButtonClick = (answerOption) => {
-		
+		currentQuestion =+ 1
 	}
 
 	return (
