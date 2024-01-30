@@ -16,6 +16,7 @@ import './App.css';
 
 			// add state varible for question and current question //
 			// swap jsx to implement state for question text //
+			// add handle button  click function to increment question state by one if the next question isn't greater than the total ammount of questions
 
 /* Showing the score screen */ 
 
