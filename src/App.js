@@ -72,7 +72,8 @@ export default function App() {
 	const [currentAnswer, setCurrentAnswer] = useState(0)
 
 	const handleAnswerButtonClick = (answerOption) => {
-		currentQuestion =+ 1
+		setCurrentQuestion = currentQuestion + 1
+		setCurrentAnswer = currentAnswer + 1
 	}
 
 	return (
@@ -92,7 +93,7 @@ export default function App() {
 					<div className='answer-section'>
             {questions[currentAnswer].answerOptions.map((answerOption, index) => (
 
-              <button onClick={() => setCurrentAnswer(currentAnswer + 1)}>{answerOption.answerText}</button>
+              <button onClick={() => handleAnswerButtonClick}>{answerOption.answerText}</button>
 
             ) )}
 						{/* <button>Answer 2</button>
