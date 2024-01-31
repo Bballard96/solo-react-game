@@ -72,6 +72,7 @@ export default function App() {
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [currentAnswer, setCurrentAnswer] = useState(0)
+	const [showScore, setShowScore] = useState(false)
 
 	const handleAnswerButtonClick = (answerOption) => {
 		// make new variable to increment current question by 1
