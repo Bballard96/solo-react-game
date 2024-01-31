@@ -91,7 +91,7 @@ export default function App() {
 		<div className='app'>
 			{/* HINT: replace "false" with logic to display the 
       score when the user has answered all the questions */}
-			{false ? (
+			{showScore ? (
 				<div className='score-section'>You scored 1 out of {questions.length}</div>
 			) : (
 				<>
