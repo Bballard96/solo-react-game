@@ -21,6 +21,7 @@ import './App.css';
 /* Showing the score screen */ 
 
 
+
 /* Saving the score */
 
 
