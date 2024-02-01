@@ -111,7 +111,7 @@ export default function App() {
 						<button>Answer 3</button>
 						<button>Answer 4</button> */}
 
-						// streak
+
 					</div>
 				</>
 			)}
