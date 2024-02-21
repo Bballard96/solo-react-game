@@ -75,6 +75,10 @@ export default function App() {
 	const [showScore, setShowScore] = useState(false)
 
 	const handleAnswerButtonClick = (isCorrect) => {
+		// checking if answer iscorrect boolean is true
+		if (isCorrect) {
+		// if it is true and answer is correct then alert the player 
+			alert("the answer is correct") }
 		// make new variable to increment current question by 1
 		const nextQuestion = currentQuestion + 1;
 		// make if statement to check if the next question is less than the total ammount of questions
