@@ -81,6 +81,7 @@ export default function App() {
 			alert("the answer is correct") }
 		// make new variable to increment current question by 1
 		const nextQuestion = currentQuestion + 1;
+		const nextAnswer = currentAnswer + 1;
 		// make if statement to check if the next question is less than the total ammount of questions
 		if (nextQuestion < questions.length ) {
 		// if the next question is less than total # of questions, setcurrent question state to currentquestion + 1 (nextQuestion) 
