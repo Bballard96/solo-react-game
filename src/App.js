@@ -74,7 +74,7 @@ export default function App() {
 	const [currentAnswer, setCurrentAnswer] = useState(0)
 	const [showScore, setShowScore] = useState(false)
 
-	const handleAnswerButtonClick = (answerOption) => {
+	const handleAnswerButtonClick = (isCorrect) => {
 		// make new variable to increment current question by 1
 		const nextQuestion = currentQuestion + 1;
 		// make if statement to check if the next question is less than the total ammount of questions
