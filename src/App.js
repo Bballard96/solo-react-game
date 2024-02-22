@@ -19,7 +19,7 @@ import './App.css';
 			// add handle button  click function to increment question state by one if the next question isn't greater than the total ammount of questions
 
 /* Showing the score screen */ 
-
+			// get alert to show when you've answered a question correctly
 
 
 /* Saving the score */
@@ -86,6 +86,7 @@ export default function App() {
 		if (nextQuestion < questions.length ) {
 		// if the next question is less than total # of questions, setcurrent question state to currentquestion + 1 (nextQuestion) 
 		setCurrentQuestion(nextQuestion)
+
 		// if the next question is higher than the total ammount of questions (last question of the quiz), alert player that the game is over
 		} else {
 			setShowScore(true)
