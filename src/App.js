@@ -79,7 +79,7 @@ export default function App() {
 		// checking if answer iscorrect boolean is true
 		if (isCorrect) {
 		// if it is true and answer is correct then alert the player 
-			alert("the answer is correct") }
+			setScore(score + 1) }
 		// make new variable to increment current question by 1
 		const nextQuestion = currentQuestion + 1;
 		const nextAnswer = currentAnswer + 1;
