@@ -20,7 +20,7 @@ import './App.css';
 
 /* Showing the score screen */ 
 			// get alert to show when you've answered a question correctly
-
+			
 
 /* Saving the score */
 
@@ -73,6 +73,7 @@ export default function App() {
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [currentAnswer, setCurrentAnswer] = useState(0)
 	const [showScore, setShowScore] = useState(false)
+	const [score, setScore] = useState(0)
 
 	const handleAnswerButtonClick = (isCorrect) => {
 		// checking if answer iscorrect boolean is true
