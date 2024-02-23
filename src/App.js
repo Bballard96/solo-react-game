@@ -71,7 +71,6 @@ export default function App() {
 	];
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
-	const [currentAnswer, setCurrentAnswer] = useState(0)
 	const [showScore, setShowScore] = useState(false)
 	const [score, setScore] = useState(0)
 
@@ -82,7 +81,6 @@ export default function App() {
 			setScore(score + 1) }
 		// make new variable to increment current question by 1
 		const nextQuestion = currentQuestion + 1;
-		const nextAnswer = currentAnswer + 1;
 		// make if statement to check if the next question is less than the total ammount of questions
 		if (nextQuestion < questions.length ) {
 		// if the next question is less than total # of questions, setcurrent question state to currentquestion + 1 (nextQuestion) 
@@ -109,7 +107,7 @@ export default function App() {
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
 					</div>
 					<div className='answer-section'>
-            {questions[currentAnswer].answerOptions.map((answerOption, index) => (
+            {questions[currentQuestion].answerOptions.map((answerOption, index) => (
 
               <button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 
