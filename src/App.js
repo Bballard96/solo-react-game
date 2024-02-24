@@ -113,9 +113,7 @@ export default function App() {
               <button onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 
             ) )}
-						{/* <button>Answer 2</button>
-						<button>Answer 3</button>
-						<button>Answer 4</button> */}
+						{}
 					</div>
 				</>
 			)}
