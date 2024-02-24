@@ -24,7 +24,7 @@ import './App.css';
 			
 
 /* Saving the score */
-
+			// create a variable to hold and set the state of the score 
 
 /* Showing the score */
 
