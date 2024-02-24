@@ -20,6 +20,7 @@ import './App.css';
 
 /* Showing the score screen */ 
 			// get alert to show when you've answered a question correctly
+			// get rid of alert and add jsx for score state to show number of 				questions answered correctly at the end 
 			
 
 /* Saving the score */
